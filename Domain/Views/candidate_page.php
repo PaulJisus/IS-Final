@@ -53,27 +53,27 @@
 
         if( nombres.val() == "")
         {
-            var op = alertify.alert("Debe colocar sus nombres." );
+            var op = alertify.alert("Debe ingresar sus nombres." );
             return false;
         }
         else if( apellidos.val() == "")
         {
-            var op = alertify.alert("Debe colocar sus apellidos." );
+            var op = alertify.alert("Debe ingresar sus apellidos." );
             return false;
         }
         else if( correo_electronico.val() == "")
         {
-            var op = alertify.alert("Debe colocar su correo electrónico." );
+            var op = alertify.alert("Debe ingresar su correo electrónico." );
             return false;
         }
         else if( telefono .val() == "")
         {
-            var op = alertify.alert("Debe colocar su numero de telefono." );
+            var op = alertify.alert("Debe ingresar su numero de telefono." );
             return false;
         }
         else if(nationality.val() == "")
         {
-            var op = alertify.alert("Debe colocar su nacionalidad." );
+            var op = alertify.alert("Debe ingresar su nacionalidad." );
             return false;
         }
         return true;

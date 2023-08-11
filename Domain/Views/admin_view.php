@@ -80,7 +80,7 @@
             if(isset($_GET['id']))
             {
                 $id_evento = $_GET["id"];
-                echo $id_evento;
+                echo $id_votacion;
                 $query = "DELETE FROM sesion_usuario WHERE id_sesion=$id_votacion";
                 $query2 = "DELETE FROM sesion WHERE id_votacion=$id_votacion";
                 $query3 = "DELETE FROM Votacion WHERE id=$id_votacion";
@@ -113,7 +113,7 @@
                     echo "</td>";
 
                     echo "<td>";?>
-                    <a href="admin_view.php?id=<?php echo $current_event->idVotacion; ?>" class="btn btn-danger">Eliminar</a>
+                    <a href="admin_view.php?id=<?php echo $current_vote->idVotacion; ?>" class="btn btn-danger">Eliminar</a>
                     <a href="edit_vote.php?id=<?php echo $current_vote->idVotacion; ?>" class="btn btn-secondary">Editar</a>
                     <a href="statistics_vote.php?id=<?php echo $current_vote->idVotacion; ?>" class="btn btn-secondary">Estadisticas</a>
                     <a href="vote_sesion_register_page.php?id_votacion=<?php echo $current_vote->idVotacion; ?>" class="btn btn-success"> Agregar sesión </a>

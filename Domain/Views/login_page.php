@@ -45,14 +45,14 @@
 
         if(nombre_de_usuario.val() == "")
         {
-            var op = alertify.alert("Debe colocar su nombre de usuario.").setHeader("Atención");
+            var op = alertify.alert("Debe ingresar su nombre de usuario.").setHeader("Atención");
 
             return false;
             
         }
         else if(clave_de_usuario.val() == "")
         {
-            alertify.alert("Debe colocar su contraseña" ).setHeader("Atención");
+            alertify.alert("Debe ingresar su contraseña" ).setHeader("Atención");
             return false;
         }
 

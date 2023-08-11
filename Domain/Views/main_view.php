@@ -84,7 +84,7 @@
                 {
                     echo "<tr>";
                     
-                    $current_event = new Votacion( $registro);
+                    $current_vote = new Votacion( $registro);
                     $datos = $current_vote->get_values();
                     echo "<th scope=\"row\"> ";
                         echo $registro["id"];

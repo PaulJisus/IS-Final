@@ -46,7 +46,7 @@
                 <thead>
                     <tr>
                       <th scope="col"> 
-                        <h1 class="display-4">Evento: <?php echo $votacion->nombre ?> </h1>
+                        <h1 class="display-4">Votacion: <?php echo $votacion->nombre ?> </h1>
                       </th>
                     </tr>
                 </thead>
